@@ -1,0 +1,11 @@
+{
+	"name": "root",
+	"private": true,
+	"devDependencies": {
+		"lerna": "^3.10.6"
+	},
+	"scripts": {
+		"bootstrap": "lerna bootstrap --hoist",
+		"build": "lerna exec yarn build"
+	}
+}
